@@ -1,0 +1,199 @@
+body{
+    
+    background-color: #F5F5F5;
+    margin: 0;
+    color:#666666;
+    font-family: "Lato", "Roboto", sans-serif;
+    font-size:14px;
+    line-height: 20px;
+    text-emphasis: left;
+
+}
+
+.link-title{
+    font-size:28px; 
+    color:#394857;
+    font-weight: 600;
+    
+}
+
+.container{
+    
+    width:780px;
+    margin: 0 auto;
+    background-color: #FFF;
+    box-shadow: 0px 12px 24px 6px #C6C6C6;
+    
+}
+
+.header{
+    
+    padding: 32px 0 32px 16px;
+/*    border: 2px solid black;*/
+    background-image: url(../images/image1.jpg)
+    
+}
+
+.page-heading{
+    
+    text-align: center;
+    margin-bottom: 24px;
+    
+}
+
+.menu{
+    
+    background: #394857;
+    padding: 16px 16px 16px 16px;
+    
+}
+
+.menu a{
+    
+    color: #fff;
+    opacity: 0.9;
+    text-decoration: none;
+    font-size:14px;
+    font-family: "Lato", "Roboto", sans-serif;
+    
+}
+
+.menu a:hover{
+    
+    opacity:0.75;   
+    
+}
+
+aside{
+    
+    float: left;
+    width: 120px;
+    padding: 24px; 
+    
+}
+
+h1{
+    
+    margin: 0;
+    color:#000;
+    opacity: 0.9;
+    font-size:24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    
+}
+
+h2{
+    
+    margin: 16px;
+    color:#000;
+    opacity: 0.9;
+    font-size:20px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    
+}
+
+.main{
+    
+    margin:0 0 0 160px;
+    padding:32px;
+    
+}
+
+a{
+    
+    color: #5FA3E6;
+    text-decoration: none;
+    
+}
+a:hover{
+    
+    opacity:0.7;
+    
+}
+
+
+#home-image img{
+    
+    width:100%;
+}
+
+footer{
+    
+    padding: 24px 16px 32px 24px;
+    background: #191919;
+    color: #fff;
+}
+
+footer a{
+    color: #5FA3E6;
+}
+
+.separator{
+    color: rgba(255, 255, 255, 0.4);
+    padding: 0 12px;
+    
+}
+
+/******** About Page Styles **************/
+
+#about-page #home-image img{
+    
+    width:70%;
+    float: left;
+    margin-bottom: 24px;
+}
+
+#about-page #profile-info{
+    
+    float: right;
+    width:25%;
+    padding: 5px;
+    
+}
+#about-page .description{
+    
+    clear: both;
+    
+}
+
+/******** Contact Page styles *********/
+
+#contact-page #form{
+    
+    width:400px;
+    margin:0 auto;
+    padding: 24px;
+/*    border: 1px solid #C6C6C6;*/
+    
+}
+
+#contact-page #form input{
+    
+    width: 100%;
+    border-radius: 4px;
+    height: 24px;
+    
+}
+
+#contact-page #form #message {
+    
+    width: 100%;
+    
+}
+
+#contact-page #form #submit{
+    
+    height: 40px;
+    background: #394857;
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+#contact-page #form #submit:hover{
+    
+    background: #5FA3E6;
+    
+}
