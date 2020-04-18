@@ -1,25 +1,29 @@
-<?php
+<?php ob_start();
 
-echo "It works!";
-//if(isset($_POST['submit'])){
-//    
-//echo "IT WORKS";
-//        
-//        
-//}
+
+
+	if(isset($_POST['submit'])) {
+		
+	$to = "alok.edasseri@gmail.com";
+	$subject = $_POST['subject'];
+	$email = $_POST['email'];
+	$txt = $_POST['message'];
+	$headers = "From: " .$email . "\r\n" .
+	"CC: somebodyelse@example.com";
+	
+	mail($to,$subject,$txt,$headers);
+	
+	header("Location: contact.html");
+	
+
+		
+	
+	}
+
 
 
 
 ?>
 
 
-<!--
-$to="alok.edasseri@gmail.com";
-$subject=$_POST['subject'];
-$email=$_POST['email'];
-$txt=$_POST['message'];
-$headers="From:".$email."\r\n".
-"CC: somebodyelse@example.com";
-        
-mail($to,$subject,$txt,$headers);
-header("Location: contact.html");-->
+
