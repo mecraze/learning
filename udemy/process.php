@@ -2,7 +2,7 @@
 
 if(isset($_POST['submit'])){
     
-echo $_POST ['subject'];
+echo "IT WORKS";
         
         
 }
