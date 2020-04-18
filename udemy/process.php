@@ -1,11 +1,12 @@
 <?php
 
-if(isset($_POST['submit'])){
-    
-echo "IT WORKS";
-        
-        
-}
+echo "It works!";
+//if(isset($_POST['submit'])){
+//    
+//echo "IT WORKS";
+//        
+//        
+//}
 
 
 
